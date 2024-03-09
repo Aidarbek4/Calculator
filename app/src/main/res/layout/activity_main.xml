@@ -5,13 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:backgroundTint="#2586FD">
+    android:background="@color/white">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:orientation="vertical"
         android:minHeight="270dp"
-        android:backgroundTint="#2586FD"
+        android:background="@color/white"
         android:layout_height="wrap_content">
 
 
@@ -67,7 +67,7 @@
                 android:tag="AC"
                 android:textSize="28dp"
                 android:textColor="@color/black"
-                android:backgroundTint="#2586FD"
+                android:backgroundTint="#73C56D"
                 android:id="@+id/button_ac"
                 android:layout_margin="4dp"/>
 
@@ -78,7 +78,7 @@
                 android:text="("
                 android:tag="("
                 android:textSize="32sp"
-                android:backgroundTint="#2586FD"
+                android:backgroundTint="#73C56D"
                 android:textColor="@color/black"
                 android:id="@+id/button_open_bracket"
                 android:layout_margin="4dp"/>
@@ -90,7 +90,7 @@
                 android:text=")"
                 android:tag=")"
                 android:textSize="32sp"
-                android:backgroundTint="#2586FD"
+                android:backgroundTint="#73C56D"
                 android:textColor="@color/black"
                 android:id="@+id/button_close_bracket"
                 android:layout_margin="4dp"/>
@@ -104,7 +104,7 @@
                 android:textSize="32sp"
                 android:textColor="@color/black"
                 android:id="@+id/button_divide"
-                android:backgroundTint="#2586FD"
+                android:backgroundTint="#73C56D"
 
                 android:layout_margin="4dp"/>
 
@@ -124,7 +124,7 @@
 
                 android:textColor="@color/black"
                 android:id="@+id/button_7"
-                android:backgroundTint="#2586FD"
+                android:backgroundTint="#73C56D"
                 android:layout_margin="4dp"/>
 
 
@@ -138,7 +138,7 @@
                 android:textColor="@color/black"
                 android:id="@+id/button_8"
 
-                android:backgroundTint="#2586FD"
+                android:backgroundTint="#73C56D"
 
                 android:layout_margin="4dp"/>
 
@@ -152,7 +152,7 @@
                 android:textSize="32sp"
                 android:textColor="@color/black"
                 android:id="@+id/button_9"
-                android:backgroundTint="#2586FD"
+                android:backgroundTint="#73C56D"
 
                 android:layout_margin="4dp"/>
             <com.google.android.material.button.MaterialButton
@@ -164,7 +164,7 @@
                 android:textSize="32sp"
                 android:textColor="@color/black"
                 android:id="@+id/button_multiply"
-                android:backgroundTint="#2586FD"
+                android:backgroundTint="#73C56D"
                 android:layout_margin="4dp"/>
 
         </LinearLayout>
@@ -182,7 +182,7 @@
                 android:textSize="32sp"
                 android:textColor="@color/black"
                 android:id="@+id/button_4"
-                android:backgroundTint="#2586FD"
+                android:backgroundTint="#73C56D"
 
                 android:layout_margin="4dp"/>
             <com.google.android.material.button.MaterialButton
@@ -194,7 +194,7 @@
                 android:textSize="32sp"
                 android:textColor="@color/black"
                 android:id="@+id/button_5"
-                android:backgroundTint="#2586FD"
+                android:backgroundTint="#73C56D"
 
                 android:layout_margin="4dp"/>
 
@@ -207,7 +207,7 @@
                 android:textSize="32sp"
                 android:textColor="@color/black"
                 android:id="@+id/button_6"
-                android:backgroundTint="#2586FD"
+                android:backgroundTint="#73C56D"
 
                 android:layout_margin="4dp"/>
             <com.google.android.material.button.MaterialButton
@@ -220,7 +220,7 @@
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:id="@+id/button_plus"
-                android:backgroundTint="#2586FD"
+                android:backgroundTint="#73C56D"
 
 
                 android:layout_margin="4dp"/>
@@ -239,7 +239,7 @@
                 android:tag="1"
                 android:textSize="32sp"
                 android:textColor="@color/black"                android:id="@+id/button_1"
-                android:backgroundTint="#2586FD"
+                android:backgroundTint="#73C56D"
 
                 android:layout_margin="4dp"/>
             <com.google.android.material.button.MaterialButton
@@ -251,7 +251,7 @@
                 android:textSize="32sp"
                 android:textColor="@color/black"
                 android:id="@+id/button_2"
-                android:backgroundTint="#2586FD"
+                android:backgroundTint="#73C56D"
 
                 android:layout_margin="4dp"/>
             <com.google.android.material.button.MaterialButton
@@ -262,7 +262,7 @@
                 android:tag="3"
                 android:textSize="32sp"
                 android:textColor="@color/black"                android:id="@+id/button_3"
-                android:backgroundTint="#2586FD"
+                android:backgroundTint="#73C56D"
 
                 android:layout_margin="4dp"/>
             <com.google.android.material.button.MaterialButton
@@ -274,7 +274,7 @@
                 android:textSize="32sp"
                 android:textColor="@color/black"
                 android:id="@+id/button_minus"
-                android:backgroundTint="#2586FD"
+                android:backgroundTint="#73C56D"
 
                 android:layout_margin="4dp"/>
 
@@ -293,7 +293,7 @@
                 android:tag="0"
                 android:textSize="32sp"
                 android:textColor="@color/black"                android:id="@+id/button_0"
-                android:backgroundTint="#2586FD"
+                android:backgroundTint="#73C56D"
 
                 android:layout_margin="4dp"/>
 
@@ -305,7 +305,7 @@
                 android:tag="."
                 android:textSize="32sp"
                 android:textColor="@color/black"                android:id="@+id/button_dot"
-                android:backgroundTint="#2586FD"
+                android:backgroundTint="#73C56D"
 
                 android:layout_margin="4dp"/>
             <com.google.android.material.button.MaterialButton
@@ -313,12 +313,13 @@
                 android:text="C"
                 android:textColor="@color/black"
                 android:tag="C"
+                android:textSize="32sp"
                 android:layout_width="86dp"
                 android:layout_height="98dp"
                 app:cornerRadius="52dp"
                 app:iconSize="32dp"
                 app:iconTint="@color/black"
-                android:backgroundTint="#2586FD"
+                android:backgroundTint="#73C56D"
                 android:layout_margin="4dp"
                 android:scaleType="centerInside"/>
 
@@ -334,7 +335,7 @@
                 android:textSize="32sp"
                 android:textColor="@color/black"
                 android:id="@+id/button_equals"
-                android:backgroundTint="#2586FD"
+                android:backgroundTint="#73C56D"
 
                 android:layout_margin="4dp"/>
 

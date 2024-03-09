@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".SplashActivity"
     android:padding="20dp"
-    android:background="#2586FD">
+    android:background="#EDF3ED">
 
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/lottie"
@@ -28,7 +28,7 @@
         android:text="Calculator"
         android:textAlignment="center"
         android:textAllCaps="true"
-        android:textColor="@color/white"
+        android:textColor="#73C56D"
         android:textSize="46dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
